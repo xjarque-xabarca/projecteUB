@@ -21,3 +21,5 @@
 # direccion relativa en source_python("/opt/projecteUB/python/DataSetHandler.py")source_python("/opt/projecteUB/python/DataSetHandler.py")
 
 # poner ficheros de configuración de python en la carpeta python
+
+# Instrucciones de instalación en fichero README.md
