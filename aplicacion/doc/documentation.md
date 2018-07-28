@@ -3,9 +3,9 @@ title: "Aplicación web con Shiny para la comparación entre métodos de aprendi
 author: "Javier Jarque / Xavier Abarca"
 date: "31 de julio de 2018"
 output:
-  html_document: default
-  pdf_document: default
   word_document: default
+  pdf_document: default
+  html_document: default
 editor_options: 
   chunk_output_type: inline
 ---
