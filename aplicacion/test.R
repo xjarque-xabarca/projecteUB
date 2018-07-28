@@ -1,6 +1,12 @@
 # data[,ncol(iris)]
 # iris$Species
 
+# iris$Species
+
+# iris$Species
+
+# iris$Species
+
 #seeds_wheat.csv
 #HTRU_2.csv
 
