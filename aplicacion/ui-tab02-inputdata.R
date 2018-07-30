@@ -38,7 +38,7 @@ tabPanel("Carga de datos",
          column(8,
                 bsCollapse(id="input_collapse_panel",open="data_panel",multiple = FALSE,
                            bsCollapsePanel(title="Compruebe los datos antes  de continuar",value="data_panel",
-                                           dataTableOutput('countdataDT')                       
+                                           dataTableOutput('dataDT')                       
                            ),
                            bsCollapsePanel(title="Resumen estatístico de los datos",value="analysis_panel",
                                            verbatimTextOutput('exploratory'),

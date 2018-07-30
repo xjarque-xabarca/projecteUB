@@ -14,21 +14,21 @@
 ## ============================================================================================================ ##
 
 
-tabPanel("Análisis exploratorio (EDA)",  
-     fluidRow(
-         column(4,wellPanel(
-           uiOutput("campSelector")
-             )
-         ),
-         column(8,
-      			 tabsetPanel(id="groupplot_tabset",
-      						tabPanel(title="Diagrama de barras", plotOutput("barplot")
-      						),#tabPanel
-      						tabPanel(title="Resumen", verbatimTextOutput("summary")
-      						)#tabPanel
-      			 )
-         )
-     )
-)
+## =========================================================================== ##
+## CONFIGURING PYTHON FROM R
+## =========================================================================== ##     
+
+# Load reticulate package
+library(reticulate)
+
+# Configure which version of Python to use
+use_python("/opt/anaconda3/bin/python")
+
+# sudo ln -s -f /opt/anaconda3/lib/libz.so.1 /lib/x86_64-linux-gnu/libz.so.1
+# ln -s -f /opt/anaconda3/lib/libz.so.1.2.11 /lib/x86_64-linux-gnu/libz.so.1
+
+# Read and evaluate a Python script
+source_python("python/DataSetHandler.py")
+
 
 

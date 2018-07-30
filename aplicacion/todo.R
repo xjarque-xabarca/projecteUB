@@ -2,7 +2,7 @@
 ## TODO
 ## =========================================================================== ##     
 
-# File appears to be one column. Check that it is a comma-separated (.csv) file.
+# OK File appears to be one column. Check that it is a comma-separated (.csv) file.
 
 # Size / Search
 
@@ -14,12 +14,17 @@
 
 # app.css
 
-# contenido del dataset de seeds y añadir otrosç
+# contenido del dataset de seeds y añadir otros
 
 # capturas dataset seeds
 
-# direccion relativa en source_python("/opt/projecteUB/python/DataSetHandler.py")source_python("/opt/projecteUB/python/DataSetHandler.py")
+# direccion relativa en source_python("/opt/projecteUB/python/DataSetHandler.py")
+# source_python("/opt/projecteUB/python/DataSetHandler.py")
 
 # poner ficheros de configuración de python en la carpeta python
 
 # Instrucciones de instalación en fichero README.md
+
+# summary de una variable
+
+# gráfico ggplot2

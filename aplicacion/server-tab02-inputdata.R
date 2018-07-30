@@ -66,7 +66,7 @@ output$fileUploaded <- reactive({
 outputOptions(output, 'fileUploaded', suspendWhenHidden=FALSE)
 
 
-output$countdataDT <- renderDataTable({
+output$dataDT <- renderDataTable({
   tmp <- inputDataReactive()
   if(!is.null(tmp)) tmp$data
 })

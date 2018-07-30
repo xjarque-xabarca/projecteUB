@@ -27,7 +27,7 @@ tabPanel("Aprendizaje automático",
            checkboxInput('DecisionTree', 'DecisionTree'),
            checkboxInput('ExtraTrees', 'ExtraTrees'),
            checkboxInput('Ridge', 'Ridge'),
-           checkboxInput('SGD', 'SGD'),
+           checkboxInput('SGD', 'SGD')
              )
          ),
          column(8,

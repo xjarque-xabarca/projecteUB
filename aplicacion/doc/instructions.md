@@ -16,7 +16,7 @@ output:
 
 La primera acción a realizar deberá ser la carga de los datos, para ello ha de seleccionarse la opción de menú correspondiente:
 
-<img src="inputdata-menucargadatos.png" alt="Carga de datos"/>>
+<img src="inputdata-menucargadatos.png" alt="Carga de datos"/>
 
 Aparecerá un formulario donde se mostrará por defecto un conjunto de datos de ejemplo (Iris dataset). Marcando la opción "Cargar fichero de datos podrá importarse un fichero con datos definidos por el usuario.
 
@@ -33,8 +33,8 @@ El fichero a importar deberá tener el formato que se describe a continuación:
 Una vez importado en fichero, se motrarà una tabla con el contenido del mismo. La tabla mostrada tiene la siguientes características:
 
 - Los datos por defecto se muestran paginados. 
-- Puede seleccionarse el número de filas por página mediante la opción *Mostrar n entradas *
-- Pueden hacerse búsquedas mediante la opción *Buscar*
+- Puede seleccionarse el número de filas por página mediante la opción *Show ... entries *
+- Pueden hacerse búsquedas mediante la opción *Search*
 
 <img src="inputdata-compruebe.png" alt="" style="width: 100%"/>
 

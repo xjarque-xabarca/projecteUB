@@ -44,7 +44,7 @@ output$barplot <- renderPlot({
     myclasses <- mydataset[ncol(mydataset)]
     myclassesnames <- colnames(mydataset)[ncol(mydataset)]
     mytitle <- paste(c("Diagrama de barras de" , myclassesnames, collapse=" "))
-    barplot(table(myclasses), col="blue", xlab=myclassesnames, ylab="Cantidad", main=mytitle)    
+    barplot(table(myclasses), col="blue", xlab=myclassesnames, ylab="Número de elementos", main=mytitle)    
     
   } else {
   

@@ -17,7 +17,7 @@ Esta aplicación ha sido desarrollada por Javier Jarque Valentín y Xavier Abarc
 
 [Descargar la memoria del proyecto]("proyecto_data_science_v0.7.pdf")
 
-### <a name="loading"></a>Instrucciones de instalación
+### <a name="instalation"></a>Instrucciones de instalación
 
 **Pasos a seguir**
 
@@ -25,9 +25,17 @@ A continuación se muestra los pasos a seguir para instalar esta aplicacíón.
 
 - Las instrucciones hacen referencia a la instalación en un sistema operativo de tipo Linux, en concreto en la distribución Lubuntu:
 
-- captura lubuntu
+- captura del sistema operativo
 
-- captura del sistema operativo de 64 
+
+
+<img src="exploratory-menu.png" alt="" />
+
+- descargar del código de GitHub
+
+git clone https://github.com/xjarque-xabarca/projecteUB
+
+
 
 - version de R - instrucciones de instalación
 

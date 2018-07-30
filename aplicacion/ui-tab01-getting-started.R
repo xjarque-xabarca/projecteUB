@@ -18,7 +18,7 @@ tabPanel("Inicio",
          fluidRow(
            column(4,wellPanel(
              h4("Inicio"),
-             a("Carga del fichero de datos (Dataset)", href="#loading"),br(),
+             a("Carga de datos", href="#loading"),br(),
              a("Análisis exploratorio (EDA)", href = "#exploratory"), br(),
              a("Aprendizaje automático", href="#learning"), br(),
              a("Documentación", href = "#help"), br()

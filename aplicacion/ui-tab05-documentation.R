@@ -19,18 +19,9 @@ tabPanel("Documentación",
          fluidRow(
            column(4,wellPanel(
              h4("Documentación"),
-             a("Entrada de datos", href = "#inputdata"), br(),
-             a("Formato de los datos", href = "#dataformat"), br(),
-             a("Guardar datos", href="#rdata"), br(),
-             a("Visualizaciones", href="#vis"), br(),
-             a("PCA Plots", href="#pcaplots"), br(),
-             a("Analysis Plots", href="#analysisplots"), br(),
-             a("Volcano Plots", href="#volcano"), br(),
-             a("Scatterplots", href="#scatterplots"), br(),
-             a("Gene Expression Boxplots", href="#boxplots"), br(),
-             a("Heatmaps", href="#heatmaps"), br()
+             a("Instrucciones de instalación", href = "#instalation"), br()
            )
            ),#column
            column(8,
-                  includeMarkdown("doc/instructions.md"))
+                  includeMarkdown("doc/documentation.md"))
          ))
