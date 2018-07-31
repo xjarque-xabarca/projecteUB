@@ -127,11 +127,11 @@ Está disponible un máquina virtual con los fuentes de la aplicación y el soft
 
 Una vez descargada importela desde *Oracle Virtual Box*
 
-<br><img src="install-lubuntu-virtualbox.png" alt=""/>
+<br><img src="install-lubuntu-virtualbox.png" alt="" width="90%"/>
 
 <br><br>
 
 Configure la *memoria base* del sistema con **4GB** para su correcto funcionamiento:
 
-<br><img src="install-lubuntu-sistema.png" alt="" />
+<br><img src="install-lubuntu-sistema.png" alt=""/>
 

@@ -84,7 +84,7 @@ que se ha cargado previamente
 
 <img src="machinelearning-algoritmos.png" alt="" />
 
-Una vez seleccionando los métodos de aprendizaje, se calcularan los resultados y se mostraran en una tabla con 
+Una vez seleccionados los métodos de aprendizaje, se calcularan los resultados y se mostraran en una tabla con 
 los valores siguientes:
 
 <img src="machinelearning-comparacionresultados.png" alt="" />
