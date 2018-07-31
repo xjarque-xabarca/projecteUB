@@ -125,7 +125,7 @@ Está disponible un máquina virtual con los fuentes de la aplicación y el soft
 
 [Descargar la máquina virtual con el proyecto instalado](https://drive.google.com/open?id=1DemQ3KpMdalgsH47E_3vDAi8U3zDq0kV)
 
-Una vez descargada importela desde *Oracle virtual box*
+Una vez descargada importela desde *Oracle Virtual Box*
 
 <br><img src="install-lubuntu-virtualbox.png" alt=""/>
 
