@@ -19,7 +19,9 @@ tabPanel("Documentación",
          fluidRow(
            column(4,wellPanel(
              h4("Documentación"),
-             a("Instrucciones de instalación", href = "#instalation"), br()
+             a("Documentación", href = "#documentacion"), br(),
+             a("Instrucciones de instalación", href = "#instalacion"), br(),
+             a("Descargar máquina virtual", href = "#maquina_virtual"), br()
            )
            ),#column
            column(8,

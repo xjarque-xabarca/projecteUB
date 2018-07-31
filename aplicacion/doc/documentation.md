@@ -1,5 +1,5 @@
 ---
-title: "Aplicación web con Shiny para la comparación entre métodos de aprendizaje supervisado."
+title: "<b>Aplicación web con Shiny para la comparación entre métodos de aprendizaje supervisado.</b><br><br>Anexo II - Documentación y manual de instalación"
 author: "Javier Jarque / Xavier Abarca"
 date: "31 de julio de 2018"
 output:
@@ -11,25 +11,18 @@ editor_options:
 ---
 
 
-## Documentación
+## <a name="documentacion"></a>Documentación
 
 Esta aplicación ha sido desarrollada por Javier Jarque Valentín y Xavier Abarca García como trabajo final del CURSO DE DATA SCIENCE (CIENCIA DE LOS DATOS) APLICACIONES A LA BIOLOGÍA Y A LA MEDICINA CON PYTHON Y R realizado por la FACULTAT DE BIOLOGIA de la  UNIVERSITAT DE BARCELONA.
 
 [Descargar la memoria del proyecto](proyecto_ub_ciencia_de_datos_xjarque_xabarca.pdf)
 
-### <a name="instalation"></a>Instrucciones de instalación
+## <a name="instalacion"></a>Instrucciones de instalación
 
 **Pasos a seguir**
 
 
-
-
-A continuación se muestran los pasos a seguir para instalar esta aplicacíón. 
-
-
-Las instrucciones hacen referencia a la instalación en un sistema operativo de tipo Linux, en concreto en la distribución Lubuntu:
-
-
+A continuación se muestran los pasos a seguir para instalar esta aplicación. Las instrucciones hacen referencia a la instalación en un sistema operativo de tipo Linux, en concreto en la distribución Lubuntu:
 
 <br><img src="install-lubuntu-desktop.png" alt="" width="90%" />
 
@@ -97,7 +90,7 @@ Instalar miniconda ejecutando el fichero *Miniconda3-latest-Linux-x86.sh*
 Instalar las librerías de Python necesarias:
 
 ```
-datascience@dspc:~/miniconda3/bin$ ./conda install pandas scikit-learn
+datascience@dspc:~/miniconda3/bin$ ./conda install pandas scikit-learn matplotlib seaborn
 ```
 
 <br><br>
@@ -124,20 +117,32 @@ Instalar las librerias de R necesarias para ejecutar el proyecto. Fichero *insta
 
 
 
-ejecución de la aplicación y captura general
+
+Abrir el fichero *ui.R* o *server.R* y ejectuar **Run App**:
+
+<br><img src="install-run-app.png" alt="" width="90%" />
+
+<br><br>
+
+
+A continuació se abrirá una ventana con la aplicación en ejecución. Seleccione una de al siguientes opciones:
+
+- Inicio | Manual de usuario
+- Carga de datos
+- Análisis exploratorio (EDA)
+- Aprendizaje automático
+- Documentación | Manual de instalación
+
+<br><img src="install-aplication-view.png" alt="" width="90%" />
+
+<br><br>
 
 
 
 
 
 
-
-
-
-
-
-
-**Decargar máquina virtual para Oracle Virtual Box**
+## <a name="maquina_virtual"></a>Decargar máquina virtual para Oracle Virtual Box
 
 Está disponible un máquina virtual con los fuentes de la aplicación y el software necesario para ejectuarla en la siguiente dirección:
 

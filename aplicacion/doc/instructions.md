@@ -1,10 +1,10 @@
 ---
-title: "Aplicación web con Shiny para la comparación entre métodos de aprendizaje supervisado."
+title: "<b>Aplicación web con Shiny para la comparación entre métodos de aprendizaje supervisado.</b><br><br>Anexo I - Manual de usuario"
 author: "Javier Jarque / Xavier Abarca"
 date: "31 de julio de 2018"
 output:
-  word_document: default
   html_document: default
+  word_document: default
   pdf_document: default
 ---
 
@@ -18,7 +18,7 @@ La primera acción a realizar deberá ser la carga de los datos, para ello ha de
 
 <img src="inputdata-menucargadatos.png" alt="Carga de datos"/>
 
-Aparecerá un formulario donde se mostrará por defecto un conjunto de datos de ejemplo (Iris dataset). Marcando la opción "Cargar fichero de datos podrá importarse un fichero con datos definidos por el usuario.
+Aparecerá un formulario donde se mostrará por defecto un conjunto de datos de ejemplo (Iris dataset). Marcando la opción "Cargar fichero de datos podrá importarse un fichero con datos definidos por el usuario. En la carpeta */data* se han incluido algunos ficheros de datos para pruebas.
 
 <img src="inputdata-checkcargardatos.png" alt="Opciones de carga de datos"/>
 
@@ -53,7 +53,8 @@ Además de un recuento de número de elementos de cada una de las *clases*.
 
 <br>
 
-### <a name="exploratory"></a> Análisis exploratorio (EDA)
+### <a name="eda"></a> Análisis exploratorio (EDA)
+
 
 Accediendo a la opción de menú *Análisis exploratorio (EDA)*
 
@@ -88,11 +89,14 @@ los valores siguientes:
 
 <img src="machinelearning-comparacionresultados.png" alt="" />
 
-- Accurancy
-- Mean Val. Accuracy
-- Std Val. Accuracy
-- min, max
-- Test set Accuracy
+Para obtener los valores de accuracy para cada modelo, se hace un cross-validation de 5 splits y se obtiene el accuracy ponderado con los datos de entreno.
+
+- Model: modelo/algoritmo de Machine Learning supervisado
+- Mean.Val.Accuracy: Valor ponderado del accuracy obtenido en la cross-validation de entreno
+- Str.Val.Accuracy: Desviación estándard de los valors accuracy obtenidos en el cross-validation de entreno
+- min: Mínimo valor de accuracy obtenido en el entreno
+- max: Máximo valor de accuracy obtenido en el entreno
+- Test set Accuracy: Valor de accuracy obtenido al predecir con los datos de test (usando el modelo entrenado).
 
 También se pueden visualizar los resultados de forma gráfica, donde se pueden observar los métodos de aprendizaje
 ordenados de forma descencente por resultado de su "Accurancy".
@@ -101,9 +105,9 @@ ordenados de forma descencente por resultado de su "Accurancy".
 
 ### <a name="help"></a>Información de la aplicación
 
-Para obtener información más detallada acceda a la pentaña "Documentación"
+Para obtener información más detallada acceda a la pestaña "Documentación"
 
-<img src="machinelearning-menu.png" alt="Documentación" />
+<img src="documentation-menu.png" alt="Documentación" />
 
 
 

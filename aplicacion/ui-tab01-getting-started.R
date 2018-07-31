@@ -19,7 +19,7 @@ tabPanel("Inicio",
            column(4,wellPanel(
              h4("Inicio"),
              a("Carga de datos", href="#loading"),br(),
-             a("Análisis exploratorio (EDA)", href = "#exploratory"), br(),
+             a("Análisis exploratorio (EDA)", href = "#eda"), br(),
              a("Aprendizaje automático", href="#learning"), br(),
              a("Documentación", href = "#help"), br()
            )
