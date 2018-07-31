@@ -28,9 +28,6 @@ A continuación se muestran los pasos a seguir para instalar esta aplicación. L
 
 <br><br>
 
-
-
-
 Descargar *R Studio*. En las imágenes siguientes pueden verse las versiones de R y RStudio utilizadas para la elaboración de este manual:
 
 https://www.rstudio.com/products/rstudio/download/
@@ -43,30 +40,20 @@ https://www.rstudio.com/products/rstudio/download/
 
 <br><br><br><br>
 
-
 Descargar el código fuente del proyecto de GitHub:
 
 ```
 git clone https://github.com/xjarque-xabarca/projecteUB
 ```
-
-
-
 <br><img src="install-git-clone.png" alt="" width="90%" />
 
 <br><br>
-
-
-
 
 Cargar el proyecto en RStudio:
 
 <br><img src="install-rstudio-open-projecteUB.png" alt="" width="90%" />
 
 <br><br>
-
-
-
 
 Descargar Python (miniconda) del siguiente enlace:
 
@@ -76,16 +63,11 @@ Descargar Python (miniconda) del siguiente enlace:
 
 <br><br>
 
-
-
-
-
 Instalar miniconda ejecutando el fichero *Miniconda3-latest-Linux-x86.sh*
 
 <br><img src="install-install-miniconda.png" alt="" width="90%"  />
 
 <br><br>
-
 
 Instalar las librerías de Python necesarias:
 
@@ -94,7 +76,6 @@ datascience@dspc:~/miniconda3/bin$ ./conda install pandas scikit-learn matplotli
 ```
 
 <br><br>
-
 
 Configurar *Reticulate* para poder ejecutar Python. Abrir el fichero *doc/load-python-libraries.R* e indicar la ruta donde está instalado Python en *use_python*  :
 
@@ -138,15 +119,11 @@ A continuació se abrirá una ventana con la aplicación en ejecución. Seleccio
 <br><br>
 
 
-
-
-
-
 ## <a name="maquina_virtual"></a>Decargar máquina virtual para Oracle Virtual Box
 
 Está disponible un máquina virtual con los fuentes de la aplicación y el software necesario para ejectuarla en la siguiente dirección:
 
-[Descargar la máquina virtual con el proyecto instalado]("drive")
+[Descargar la máquina virtual con el proyecto instalado](https://drive.google.com/open?id=1DemQ3KpMdalgsH47E_3vDAi8U3zDq0kV)
 
 Una vez descargada importela desde *Oracle virtual box*
 
@@ -154,31 +131,7 @@ Una vez descargada importela desde *Oracle virtual box*
 
 <br><br>
 
-
-
-
-
-
 Configure la *memoria base* del sistema con **4GB** para su correcto funcionamiento:
 
 <br><img src="install-lubuntu-sistema.png" alt="" />
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
